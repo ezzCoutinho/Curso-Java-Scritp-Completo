@@ -1,0 +1,4 @@
+<% Controlador de Fluxo (if, for...) %>
+<%= Imprime e mostra caracteres %>
+<%- Executa/imprime e não mostra caracteres %>
+<%- include('caminho1/caminho2'); %>

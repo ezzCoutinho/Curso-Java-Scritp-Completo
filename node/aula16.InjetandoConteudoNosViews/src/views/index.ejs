@@ -1,0 +1,16 @@
+<%- include('includes/head') %>
+    <section class="container">
+        <h1>
+            <!-- <%numeros.forEach(num => { %>
+                <%=num %> <br>
+            <% }) %> -->
+            <%= umaVariavel %>
+        </h1>
+        <form action="/" method="post">
+            <label>Nome do Cliente:</label>
+            <input type="text" name="cliente">
+            <button name="butao">Enviar</button>
+        </form>
+    </section>
+
+<%- include('includes/footer') %>
